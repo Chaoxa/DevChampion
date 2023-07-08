@@ -1,0 +1,60 @@
+@media (max-width: 575.98px) {
+  body {
+    font-size: 12px;
+  }
+
+  #myMainHeader .logo {
+    font-size: 9px;
+  }
+
+  #myMainHeader .iconCart {
+  }
+
+  #myFooter {
+    font-size: 15px;
+  }
+
+  #myFooter .license {
+    text-align: center;
+  }
+
+  #myFooter .social {
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .offcanvas {
+    width: 66.66%;
+    /* Chiếm 2/3 màn hình */
+    transform: translateX(-100%);
+  }
+  .toggle-icon {
+    display: inline;
+  }
+
+  ul.collapse1,
+  ul.collapse2 {
+    display: none;
+  }
+
+  #headerRespon {
+    display: block !important;
+  }
+
+  #headerRespon .logo b {
+    font-size: 20px !important;
+  }
+
+  #headerRespon #icon-menu {
+    font-size: 12px;
+  }
+
+  .iconCart,
+  .iconUser {
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    color: black;
+  }
+}
